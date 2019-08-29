@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.mission {
+  width: 40%;
+}
+
+.approach {
+  width: 30%;
+}
+
+.vision {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.our:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.our h2, .who h2, .why h2{color:white; text-align:center; padding-top:15px;}
+
+.border{
+  width: 160px;
+  height: 2px;
+  background: white;
+  margin: 20px auto;
+}
+
+.our p, .who p{color:white; text-align:center;}
+.why p{color:white; padding-left:15px;}
+
+.span{color:#393; text-decoration:underline; font-weight:500;}

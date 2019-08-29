@@ -1,0 +1,76 @@
+
+
+.courses{background-image:  linear-gradient(to bottom right, #6b8eb7, #25476d) ;}
+
+.courses .container{position:relative;
+width:90%;
+display:grid;
+grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+grid-template-rows:auto;
+grid-gap: 0 40px;
+padding-top:20px;
+}  /* making boxes */
+
+/* styling box content and border */
+.courses .container .box{position:relative; height:500px; background: #060c21;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #03F;
+}
+
+.courses .container .box .content
+{position: relative;
+padding:20px;}
+
+.courses .container .box .content h2{position:absolute; top:-150px;
+
+margin:0; padding:0;
+font-size:8em;
+color: rgba(255,255,255,.05);
+transition: 0.5s; text-align:center; padding-left:40px;}
+
+
+.courses .container .box:hover .content h2
+{top:-240px; color:#09F;font-size:10em;}
+
+.courses .container .box .content h3{
+	margin:0 0 10px; padding:0; text-align:center;
+	color:#fff; font-size:20px; font-weight:500;}
+	
+.courses .container .box .content p{
+	margin:0; padding:0; text-align:center;
+	color:#fff; font-size:10px; }	
+	
+	
+/* read more button */	
+	
+.courses .container .box .content a{position:relative; margin:20px 0px 0;
+padding:10px 20px;
+text-decoration: none;
+border: 1px solid #fff;
+display: inline-block;
+color:#fff;
+transition:0.5s;
+transform: translateY(-40px);
+opacity: 0;
+visibility:hidden;
+
+
+}
+
+.courses .container .box:hover .content a{	
+transform: translateY(0px);
+opacity: 1;
+visibility:visible; }
+
+
+.courses .container .box .content a:hover{color:#000; background:white;}
+	
+	
+	
+	
+	
+
+
+

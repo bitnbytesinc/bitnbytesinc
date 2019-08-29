@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="f.css" />
+
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+<button onclick="document.getElementById('modal-wrapper').style.display='block'" style="width:200px; margin-top:200px; margin-left:160px;">
+Open Popup</button>
+
+<div id="modal-wrapper" class="modal">
+
+<form class="modal-content animate" action="/action_page.php">
+
+<div class="imgcontainer">
+<span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+<img src="logo" alt="Logo"  style="height:100px;width:100px;"/>
+<h1 style="text-align:center">Registeration Form</h1>
+</div>
+
+<div class="form">
+<pre>
+<form style="font-size:18px; text-align:center;"> 
+               <label> Name: </label> <input type="text" />
+
+               <label> Email: </label> <input type="text"/>
+
+               <label> Age: </label>          <input type="number"  />
+
+               <label> Country: </label>    <select>
+                                                                                       <option> Pakistan </option> <option> USA </option> <option> UK </option> <option> India </option> <option> Canada </option> <option> Bangladesh </option> <option> China </option> <option> Other </option> </select>
+
+               <label> Gender: </label>    <input type="radio" /> Male <input type="radio" /> Female
+
+               <label> Course:</label>      <input type="checkbox" />Web <input type="checkbox" />Android<input type="checkbox" /> Graphics <input type="checkbox" /> Java
+
+               <label> Message:</label>         
+                                  <textarea rows="5" cols="30"></textarea>
+
+
+               <label> Photo:</label>       <input type="file" />
+
+                              
+                                               <input type="submit" />
+</form>
+</div>
+
+</form> </pre>
+
+</div>
+</body>
+</html>

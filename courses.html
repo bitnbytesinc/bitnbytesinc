@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <script src="js/validation.js"></script> 
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>  
+    
+    <!-- for drop down menu -->
+  <script src="./assets/js/require.min.js"></script>
+  <script src="./assets/js/dashboard.js"></script>
+  <!-- header css file --->
+  <link href="assets/css/header.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Footer css file -->
+    <link href="assets/css/footer.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="courses.css" />
+
+<!--popupform -->
+<link rel="stylesheet" href="f.css" />
+
+<!-- sticky header -->    
+   <script>$(window).scroll(function(){
+  var sticky = $('.sticky'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+}); </script>  
+  
+  <script>$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 100) {
+            $(".header").addClass("activeh2");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header").removeClass("activeh2");
+        }
+    });
+});
+ </script>   
+    
+
+<title>Courses</title>
+</head>
+
+<body>
+
+<div class="header py-4 sticky" id="header">
+        <div class="container-fluid">
+          <div class=" row">
+
+            <div class="col-lg-5">
+            <div style="float:left">
+              <a class="header-brand" href="./index.html">
+                <img src="file:///F|/xampp/htdocs/Udemy pracitce/logo" class="header-brand-img" alt="Your Logo Here">
+              </a>
+            </div>
+<div style="float:left; margin-top:42px; color:black" class="header-brand"> BitnBytes - <span style="font-size:15px"> Learn to Earn </span> </div> </div>
+
+            <div class="col-lg-2"> </div>
+            <div style="width:100px; margin-top:8px; margin-left:230px" class="col-lg-4">
+              <div class="d-flex " style="margin-left:200px; color:yellow">
+                Call Us: 051-xxxxxxx or +92-xxx-xxxxxxx
+              </div>
+            </div>
+
+<div align="right" class="col-lg-1">
+                <div class="avatar-list">
+                <span class="avatar" ><a href="#" style="color:yellow"><i class="fa fa-facebook"></i></a></span>
+                <span class="avatar"><a href="#" style="color:yellow"><i class="fa fa-instagram"></i></a></span>
+                <span class="avatar"><a href="#" style="color:yellow"><i class="fa fa-youtube"></i></a></span>
+                <span class="avatar"><a href="#" style="color:yellow"><i class="fa fa-android"></i></a></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-lg-3">
+
+            </div>
+            <div align="right" style="float: right; margin-left: 500px; margin-top: -60px" class="col-lg-6">
+
+              <ul class="nav nav-tabs border-0 flex-column flex-lg-row" style="color:black">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link " onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='black'"><i class="fe fe-home"></i> Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a href="services2.html" class="nav-link "  onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='black'" ><i class="fe fe-box"></i> Services</a>
+                  <!-- <div class="dropdown-menu dropdown-menu-arrow" style="margin-top: 19px"> <!-- set dropdown menu position in style 
+                    <a href="./cards.html" class="dropdown-item ">Responsive Websites</a>
+                    <a href="./charts.html" class="dropdown-item ">Creative Apps</a>
+                    <a href="./pricing-cards.html" class="dropdown-item ">Banners Designing</a>
+                  </div>  -->
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="courses.html" class="nav-link active"onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='yellow'"><i class="fe fe-book-open"></i> Course</a>
+                  <!--<div class="dropdown-menu dropdown-menu-arrow" style="margin-top: 19px">
+                    <a href="./maps.html" class="dropdown-item ">Web</a>
+                    <a href="./icons.html" class="dropdown-item ">Android</a>
+                    <a href="./store.html" class="dropdown-item ">Graphic Designing</a>
+                    <a href="./blog.html" class="dropdown-item ">Python</a>
+                    <a href="./carousel.html" class="dropdown-item ">3D Animation</a> 
+                  </div> -->
+                </li>
+                <li class="nav-item">
+                  <a href="int-jobs.html" class="nav-link" onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='black'" ><i class="fe fe-file"></i>Internships/Jobs</a>  </li>
+                  
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="aboutus.html" class="nav-link" onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='black'"><i class="fe fe-check-square"></i> About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link" onMouseOver="this.style.color='yellow'"  onMouseOut="this.style.color='black'"><i class="fe fe-image"></i>Contact</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+    
+
+<div class="courses" style=" height:700px;">
+<h1 style="padding-top:5px;"> Courses </h1>
+<div class="container">
+<div class="box">
+                <div class="content">
+                    <h2 ><i class="fa fa-globe"></i></h2>
+                    <h3>Website Development</h3>
+                    <p>fkhjsjngisoejoigjiopegmnlksejgniospe </p>
+                    <a href="#">Details</a>
+                    <a href="#" style="float:right" onclick="document.getElementById('modal-wrapper').style.display='block'">Apply</a> 
+                </div>
+            </div>        <div class="box">
+                <div class="content">
+                    <h2 style="padding-right:28px;"><i class="fa fa-android"></i></h2>
+                    <h3>Android Development</h3>
+                    <p>fkhjsjngisoejoigjiopegmnlksejgniospe </p>
+                    <a href="#">Details</a>
+                    <a href="#" style="float:right" style="float:right" onclick="document.getElementById('modal-wrapper').style.display='block'">Apply</a>
+                </div>
+            </div>
+            <div class="box">
+                    <div class="content">
+                        <h2><i class="fa fa-paint-brush"></i></h2>
+                        <h3>Graphic Designing</h3>
+                        <p>Ljkfrgkopskgropkgoks[l[pgslp[g</p>
+                        <a href="#">Details</a>
+                        <a href="#" style="float:right" style="float:right" onclick="document.getElementById('modal-wrapper').style.display='block'">Apply</a>
+                    </div>
+                </div>
+               <div class="box">
+                    <div class="content">
+                        <h2 style="padding-left:30px;"><i class="fa fa-laptop"></i></h2>
+                        <h3>Java Programming</h3>
+                        <p>Ljkfrgkopskgropkgoks[l[pgslp[g</p>
+                        <a href="#">Details</a>
+                        <a href="#" style="float:right; onclick="document.getElementById('modal-wrapper').style.display='block'">Apply</a>
+                    </div>
+                </div>
+    </div>
+
+  </div>
+  
+<div id="modal-wrapper" class="modal">
+
+<form class="modal-content animate" name="prm" action="javascript:void(0)" method="post">
+
+<div class="imgcontainer">
+<span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+<img src="logo" alt="Logo"  style="height:100px;width:100px; text-align:center"/> </div>
+<h1 style="text-align:center; font-size:48px; color:blue; margin-top:-40px;" id="amo">Registeration Form</h1> 
+
+
+<div class="form">
+
+<pre>               <label> Name: </label>    <input type="text" onblur="valid(1)" name="name2"/><span id="1"></span>
+
+               <label> Email: </label>   <input type="text" name="email2" onblur="valid(2)"/>
+
+               <label> Age: </label>     <input type="number" name="age" onblur="valid(3)" />
+
+               <label> Country: </label> <select name="country">
+                                                                                       <option> Pakistan </option> <option> USA </option> <option> UK </option> <option> India </option> <option> Canada </option> <option> Bangladesh </option> <option> China </option> <option> Other </option> </select>
+
+               <label> Gender: </label>  <input type="radio" name="gender" onblur="valid(5)"/> Male <input type="radio" name="gender" onblur="valid(5)" /> Female
+
+               <label> Course:</label>   <input type="checkbox" />Web <input type="checkbox" /> Android <input type="checkbox" /> Graphics <input type="checkbox" /> Java
+
+               <label> Message:</label >         
+                           <textarea rows="5" cols="30" name="message" onblur="valid(6)"></textarea>
+
+
+               <label> Photo:</label>    <input type="file" />
+
+                              
+                                     <button onclick="valid(7)">submit</button>
+</pre></form>
+</div>
+</div>
+ 
+  <div class="footer-wrapper" style="padding-bottom:10px;">
+  <div class="top-img"></div>
+  <div class="container-fluid">
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        
+        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        
+        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+   
+        <li><a href="#" target="_blank"><i class="fa fa-android"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-mid-part">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-one">
+            <div class="footer-heading"><h2>Contact Us</h2></div>
+ <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+            <div class="footer-contact-text">
+              <p>Address: Office# B-28 Basement, Malikabad Shopping Mall, 6th Road, Rawalpindi.</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+            <div class="footer-contact-text">
+              <p>051-xxxxxxx</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-mobile"></i></div>
+            <div class="footer-contact-text">
+              <p> +92-xxx-xxxxxxx</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+            <div class="footer-contact-text">
+              <p>bitnbytesinc@outlook.com</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+            <div class="footer-contact-text">
+               <p>bitnbytes.com</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Quick Link</h2></div>
+            <div class="footer-link">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="services2.html">Services</li>
+                  <li><a href="courses.html">Courses</a></li>
+                   <li><a href="int-jobs.html">Internships/Jobs</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                     <li><a href="contact.html">Contact Us</a></li>
+                       
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Our Services</h2></div>
+             <div class="footer-link">
+              <ul>
+                <li><a href="#">Website Development</a></li>
+                 <li><a href="#">Android Development</a></li>
+                  <li><a href="#">SEO Services</a></li>
+                   <li><a href="#">Graphic Designing</a></li>
+                   <li><a href="#">Content Writing</a></li>
+                   <li><a href="#">Database</a></li>
+                    
+                       
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-three">
+             <div class="footer-heading"><h2 id="pemo">Get in touch</h2></div>
+             <div class="footer-form">
+               <form method="post" action="javascript:void(0);" name="jrm">
+                 <div class="footer-form-box">
+                   <input name="name1" type="text" class="footer-form-style" placeholder="Name" onblur="check(1)"/>
+                 </div>
+                 <div class="footer-form-box">
+                   <input name="email1" id="2" type="text" class="footer-form-style" placeholder="Email" onblur="check(2)"/>
+                 </div>
+                 <div class="footer-form-box">
+                   <input name="pnumber1" type="text" class="footer-form-style" placeholder="Phone Number" onblur="check(3)"/>
+                 </div>
+                 <div class="footer-form-box">
+                   <input name="message1" type="text" class="footer-form-style" placeholder="Message" onblur="check(4)"/>
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="submit" class="footer-form-submit-style" value="SUBMIT" onclick="check(5)"/>
+                 </div>
+               </form>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="footer-bottom">
+   <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12">
+       <p>Copyright &copy; 2019 BitnBytes All Rights Reserved</p>
+     </div>
+   </div>
+ </div>
+
+
+  </div>
+</div>
+
+
+  
+
+</body>
+</html>
